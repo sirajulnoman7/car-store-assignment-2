@@ -1,0 +1,42 @@
+
+
+KK Car Store:
+-----------------
+KK Car Store is a  backend application for managing car inventory and orders. This project provides RESTful APIs for car management and order processing with features like car CRUD operations, placing orders, calculating revenue, and stock management.
+
+##Features:
+-------------
+* Car Management:
+----------------
+Create: Add new cars to the inventory.
+Update: Modify car details like price, brand, and category.
+Query: Retrieve cars by brand, category.[note: not apply is a case-sensitive issue ]
+Delete: Remove cars from the inventory.
+
+Order Management:
+--------------
+Place Orders: Create an order and reduce the car's stock based on the ordered quantity.
+Total Revenue: Calculate the total revenue generated from all orders.
+Total Quantity: Retrieve the total quantity of cars sold.
+Stock Management: Automatically reduce the car quantity in inventory after an order is placed.
+
+Packages Used:
+------------------
+ *Core Dependencies:
+----------------------
+dotenv: For environment variable management.
+express: Web framework for building RESTful APIs.
+mongodb: MongoDB driver for database connectivity.
+mongoose: ODM library for MongoDB.
+
+Development Tools:
+--------------------
+typescript: For type-safe development.
+nodemon: Automatically restarts the server during development.
+ts-node-dev: For fast development with TypeScript.
+eslint: For linting and enforcing code quality.
+prettier: Code formatting tool.
+Project Setup
+Prerequisites
+Node.js 
+MongoDB (running locally or accessible via URI)
